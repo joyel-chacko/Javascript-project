@@ -1,0 +1,56 @@
+.People {
+    font-family: Arial;
+    color: Black;
+    margin-left: 300px;
+    font-size: 40px;
+}
+.countt {
+    font-family: Arial;
+    margin-left: 400px;
+    font-size: 50px;
+}
+.increment-button,.decrement-button {
+    background-color: rgb(175, 56, 56);
+    border: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 350px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.enteries {
+    position: absolute;
+    top: 430px;
+    font-family: Arial;
+    color: Black;
+    margin-left: 300px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.Save {
+    position: absolute;
+    left: 11px;
+    top: 365px;
+    background-color: rgb(175, 56, 56);
+    border: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 350px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

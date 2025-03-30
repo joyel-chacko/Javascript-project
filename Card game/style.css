@@ -1,0 +1,68 @@
+.black-card {
+    font-family: Arial;
+    position: absolute;
+    left: 300px;
+    color: rgb(211, 192, 82);
+    font-size: 50px;
+}
+body {
+    background-color: rgb(24, 115, 24);
+}
+.round {
+    position: absolute;
+    top: 120px;
+    left: 300px;
+    font-size: 30px;
+    font-family: Arial;
+    font-style: italic;
+    color: rgb(211, 203, 203);
+}
+.Cards {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    font-size: 30px;
+    color: rgb(211, 203, 203);
+    font-family: Arial;
+}
+.Sum {
+    position: absolute;
+    top: 260px;
+    left: 415px;
+    font-size: 30px;
+    color: rgb(211, 203, 203);
+    font-family: Arial;
+}
+
+button {
+    color: #016f32;
+    width: 200px;
+    background-color: goldenrod;
+    border: 0;
+    position: absolute;
+    top: 350px;
+    left: 370px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+   
+}
+#new-card {
+    color: #016f32;
+    width: 200px;
+    background-color: goldenrod;
+    border: 0;
+    position: absolute;
+    top: 350px;
+    left: 370px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 55px;
+}
