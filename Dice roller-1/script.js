@@ -12,9 +12,9 @@ function roleDice() {
 
         let randomNum = Math.floor(Math.random() * 6 ) + 1
         values.push(randomNum)
-        diceResult.textContent = "Dice:"+ values
+        diceResult.textContent = "Dice: " +values.join(",")
 
-        images.push(`<img src="Dice_images/${randomNum}.png">`)
+        images.push(`<img src="Dice_images/${randomNum}.png" alt="dice ${randomNum}">`)
         diceImage.innerHTML = images
     }
 
