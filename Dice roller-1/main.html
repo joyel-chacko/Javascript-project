@@ -3,22 +3,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dice Roller</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <div>
+            <h1>
+                Dice Roller
+            </h1>
+            <label for="numOfDice"># of Dice:</label>
+            <input id="numOfDice" type="number" placeholder="0" min="1">
+            <button onclick ="roleDice()">Role Dice</button>
+           
+        </div>
+        <div>
+            <h3 id="diceResult"></h3>
+            <p id="diceImage"></p>
+        </div>
+    </div>
 
-    <div>
-        <h1>
-            Dice Roller
-        </h1>
-        <label for="numOfDice"># of Dice</label>
-        <input id="numOfDice" type="number" placeholder="1" min="1">
-        <button onclick ="roleDice()">Role Dice</button>
-       
-    </div>
-    <div>
-        <h3 id="diceResult"></h3>
-        <p id="diceImage"></p>
-    </div>
+   
     
 
 </body>

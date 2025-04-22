@@ -1,0 +1,36 @@
+body{
+    margin: 60px;
+    text-align: center;
+    background-color: hsl(151, 56%, 89%);
+    font-family: Arial;
+    
+}
+label {
+    font-size: 25px;
+    margin: 10px;
+
+}
+input{
+    width: 120px;
+    font-size: 20px;
+    text-align: center;
+    margin: 8px;
+}
+button{
+    background-color: rgb(10, 128, 232);
+    color: rgb(224, 224, 224);
+    border-radius: 5px;
+    padding: 8px 10px;
+    border: none;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    
+}
+button:hover {
+    transform: scale(1.1);
+    background-color: rgb(5, 7, 2);
+    color: hsl(0, 0%, 76%);
+    box-shadow: 0 0 10px rgb(8, 209, 231);
+    
+}
